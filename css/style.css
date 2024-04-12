@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(244, 244, 244);
+}
+
+.mare {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px rgb(164, 164, 164) solid;
+    width: 35%;
+    height: 73%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.mic {
+    margin: 60px;
+    height: 80%;
+    margin: 0 80px 50px 80px;
+}
+
+label {
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+input {
+    width: 98%;
+    margin-bottom: 10px;
+    margin-top: 4px;
+    border: 1px solid  rgb(201, 201, 201);
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    border: 1px solid  rgb(145, 145, 145);
+    border-radius: 3px;
+}
+
+h3 {
+    text-align: center;
+}
+
+input[type=username] {
+    padding: 3px 0 3px 5px;
+}
+
+input[type=text] {
+    height: 68px;
+    padding: 3px 0 3px 5px;
+}
+#tpost {
+    height: 110px;
+    padding: 3px 0 3px 5px;
+} 
+
+input[type=text]::placeholder {
+    text-align: left;
+    position: absolute;
+    top: 3px;
+    left: 4px;
+}
